@@ -118,6 +118,10 @@ padding: 188px 0;
 background: #2e2f42;
 max-width: 1440px;
 margin: 0 auto;
+background-image:url("../images/people-office.png") ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 .service-title{
         font-weight:700;

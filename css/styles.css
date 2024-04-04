@@ -203,7 +203,18 @@ background-size: cover;
 flex-basis: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
+.solution-box{
 
+}
+.solution-box-icon{
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+}
+.solution-box-box{}
 
 /*---------TEAM-------------*/
 

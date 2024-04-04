@@ -213,6 +213,9 @@ border-radius: 0px 0px 4px 4px;
         width: 264px;
         height: 112px;
         background: #f4f4fd;
+        display: flex;
+            align-items: center;
+            justify-content: center;
         
 }
 .solution-box-box{}
@@ -332,6 +335,8 @@ border-top: none;
 .footer {padding: 100px 0;
     background: #2e2f42;
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
 
 }
 .footer-background{
@@ -362,14 +367,13 @@ border-top: none;
     letter-spacing:0.02em;
     color:#f4f4fd;
     max-width: 264px;
+    
 }
 /*----------Social-----------*/
 .social{
     width: 208px;
     height: 80px;
-    
-
-}
+    }
 
 .social-text{
     font-weight: 500;
@@ -382,6 +386,9 @@ border-top: none;
 .icon-list {
     display: flex;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .icon-item {

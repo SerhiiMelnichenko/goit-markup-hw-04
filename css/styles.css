@@ -79,10 +79,19 @@ align-items: center;
         color:#2e2f42;
         padding-top: 24px;
         padding-bottom: 24px;
-        }
+         }
 
 .nav-link:hover,
 .nav-link:focus{color:#404BBF;
+}
+.nav-link-studio/*:active:*/:after{
+        content: "";
+        border-radius: 2px;
+        width: 48px;
+        height: 4px;
+        background: #404bbf;
+        display: flex; 
+        
 }
 
 .address{
@@ -368,11 +377,12 @@ border-top: none;
     color:#f4f4fd;
     max-width: 264px;
     
+    
 }
 /*----------Social-----------*/
 .social{
-    width: 208px;
-    height: 80px;
+    
+    
     }
 
 .social-text{

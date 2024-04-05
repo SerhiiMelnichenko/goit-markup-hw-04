@@ -302,14 +302,16 @@ border-radius: 0px 0px 4px 4px;}
 /*soc-list team*/
 .icon-list-team {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     align-items: center;
     justify-content: center;
 }
 
 .icon-item-team {
     width: 40px;
-    height: 40px;}
+    height: 40px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .icon-link-team {
     width: 100%;
@@ -326,7 +328,7 @@ border-radius: 0px 0px 4px 4px;}
 }
 
 .icon-link-team:hover, 
-.icon-link-team:active{
+.icon-link-team:focus{
     background-color: #404bbf}
 
 /*------portfolio---------*/

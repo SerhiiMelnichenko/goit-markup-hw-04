@@ -344,6 +344,21 @@ width: calc((100% - 48px) / 3);
     letter-spacing:0.02em;
     color:#434455;
 }
+.portfolio-div-cover{
+    position: relative;
+}
+
+.portfolio-cover-text{
+    position: absolute;
+    top: 0;
+    height: 300px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+
+}
+
 .port-pro-text{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
@@ -354,8 +369,7 @@ border-top: none;
 .footer {padding: 100px 0;
     background: #2e2f42;
     display: flex;
-    max-width: 1440px;
-    margin: 0 auto;
+    
 
 }
 .footer-background{
@@ -392,7 +406,6 @@ border-top: none;
 /*----------Social-----------*/
 .social{
     
-    
     }
 
 .social-text{
@@ -401,7 +414,9 @@ border-top: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+    
+}
 /*-------------soc-list------------*/
 .icon-list {
     display: flex;

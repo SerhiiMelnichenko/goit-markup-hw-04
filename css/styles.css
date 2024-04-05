@@ -379,16 +379,16 @@ border-top: none;
 
 /*----------------FOOTER----------------*/
 .footer {padding: 100px 0;
-    background: #2e2f42;
-    align-items: baseline;
-}
+    background: #2e2f42;}
+
 .container-footer-background{
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    margin-right: 120px;
     }
     
 .footer-bg{
-    margin-right: 120px;;
+    
     
 }
 
@@ -420,10 +420,10 @@ border-top: none;
     
 }
 /*----------Social-----------*/
-.social{  padding-right: 692px;
+.social-title-footer{
     }
 
-.social-text{
+.social-text-footer{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

@@ -245,6 +245,7 @@ border-radius: 0px 0px 4px 4px;
 /*---------TEAM-------------*/
 
 .team{background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-list{
@@ -302,6 +303,7 @@ border-radius: 0px 0px 4px 4px;
         text-align:center;
         color:#434455;
         text-align: center;
+        margin-bottom: 8px;
 } 
 /*soc-list team*/
 .icon-list-team {
@@ -419,8 +421,7 @@ border-top: none;
 .container-footer-background{
     display: flex;
     align-items: baseline;
-    margin: 0 auto;
-    max-width: 1440px;
+    
     }
     
 .footer-bg{margin-right: 120px;
@@ -453,7 +454,7 @@ border-top: none;
     
 }
 /*----------Social-----------*/
-.social-title-footer{margin-left:auto;
+.social-title-footer{
     }
 
 .social-text-footer{
